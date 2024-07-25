@@ -24,14 +24,23 @@ header {
     margin: auto;
 }
 
+header nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 header a {
     color: #eee;
-    margin-right: 40px;
+    margin-right: 60px;
     font-weight: 300;
 }
 
-header img{
-    height: 50px;
+header nav .logo{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
 }
 
 .container {
